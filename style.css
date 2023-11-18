@@ -1,0 +1,505 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 1.25rem;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+}
+.head-section{
+    display: flex;
+    flex-direction: column;
+    background: url("./Images/Rectangle\ 6\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 780px;
+    flex-shrink: 0;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.56rem 3rem;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    
+    
+}
+header > nav > ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    list-style: none;
+}
+header> nav > ul > a{
+    text-decoration: none;
+     color:  #EFFCF1;
+    font-family: "Jost";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    width: 100%;
+    color: #EFFCF1;
+    background: #EFAB29;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 2s;
+}
+
+.the-adventure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin-top: 10%;
+}
+.the-adventure > h3{
+    color: #EFFCF1;
+    font-family: "Mansalva";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.the-adventure > h1 {
+    color: #EFFCF1;
+    font-family: "Palanquin Dark" ;
+    font-size: 5.353rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.the-adventure > p{
+    width: 820px;
+    height: 95px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: "Jost";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    color: #EFFCF1;
+    background: #EFAB29;
+    font-size: 1rem;
+    width: 20%;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 2s;
+}
+.Take-yourself{
+    background: url("./Images/Rectangle\ 7.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 2100px;
+    margin-top: -10%;
+    padding: 2rem 5rem;
+    align-content: center;
+
+}
+.coverTake{
+    margin-top: 10%;
+}
+.h2h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.h2h1 > h2{
+    color: #22CDFF;
+    font-family: "Mansalva";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+.h2h1 > h1{
+    color: #0E2911;
+    font-family: Palanquin Dark;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 2%;
+}
+.card-cover{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    
+}
+.card{
+    width: 282px;
+    height: 499px;
+    flex-shrink: 0;
+}
+.text-Star{
+    width: 282px;
+    flex-shrink: 0;
+}
+.kayaking{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.kayaking > h3{
+    color: #0E2911;
+    font-family: "Palanquin Dark";
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.card >.text-Star> p{
+    color: #6F6F6F;
+    font-family: "Jost";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.card > .text-Star > p a{
+    color: #EF4129;
+    font-size: 1.1rem;
+    border: none;
+   
+}
+.btn2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    color: #EFFCF1;
+    background: #EFAB29;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 2s;
+}
+.making-cover{
+    position: relative;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.making{
+    width: 617px;
+    height: 408px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #EFFCF1;
+    padding: 40px 40px;
+    align-items: center;
+}
+.making > h2{
+    width: 495px;
+    color: #0E2911;
+    font-family: "Palanquin Dark";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 55px; /* 122.222% */
+}
+.making > hr {
+    width: 128px;
+    height: 3px;
+    flex-shrink: 0;
+    stroke-width: 3px;
+    background-color: #22CDFF;;
+}
+
+.making > p{
+    margin-top: 5%;
+    width: 450px;
+    height: 137px;
+    flex-shrink: 0;
+    color: hsl(0, 0%, 44%);
+    font-family: "Jost";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 168.75% */ 
+}
+.making-picture{
+    width: 600px;
+    height: 391px;
+    flex-shrink: 0;
+    position: absolute;
+    right: 60px;
+    top: 150px;
+}
+.client-testimony{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 667px;
+    flex-shrink: 0;
+    background: #EFFCF1;
+
+}
+.client-testimony > h2{
+    color: #22CDFF;
+    font-family: "Mansalva";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.client-testimony > h1{
+    color: #0E2911;
+    font-family: "Palanquin Dark";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.client-testimony > img{
+    border-radius: 160px;
+    border: 3px solid #22CDFF;
+}
+.client-testimony p{
+    width: 762px;
+    height: 104.458px;
+    flex-shrink: 0;
+    color: #6F6F6F;
+    text-align: center;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.client-testimony > .h3{
+    color: #0E2911;
+    text-align: center;
+    font-family:" Palanquin Dark";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 2%;
+}
+.client-testimony > h4{
+    color: #0E2911;
+    text-align: center;
+    font-family: "Jost";
+    font-size: 26px;
+    font-style: normal;  
+    font-weight: 400;
+    line-height: normal;
+}
+footer{
+    height: 388px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 60px;
+    background: #0E2911;
+    position: relative;
+}
+.footer-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about > h3{
+    color: #FDFEFF;
+    font-family: "Palanquin Dark";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.about > p{
+  width: 400px;
+  margin-top: 4%;
+  color: #c4c0c0;
+  font-family: "Jost";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.quick-menu > h3{
+    color: #FDFEFF;
+    font-family: "Palanquin Dark";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.quick-menu > ul{
+    font-family: "Jost";
+    margin-top: 12%;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+
+  }
+  .quick-menu > ul >a{
+    text-decoration: none;
+    color:  #dad7d7;
+    
+  }
+  .quick-menu > ul > a >li{
+    list-style: none;
+    
+  }
+  .sign-up {
+    align-items: center;
+    text-decoration: none;
+    margin-top: 5%;
+  }
+  .sign-up > ul{
+    text-align: center;
+    font-family: "Jost";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;  
+  }
+  .sign-up > ul > a{
+    text-decoration: none;
+    color: #c4c0c0;
+  }
+  .sign-up > ul > a >li{
+    list-style: none;
+}
+.subscribe{
+    position: relative;
+    margin-top: 1%;
+}
+.subscribe > h3{
+    color: #FDFEFF;
+   text-align: center;
+   font-family: "Palanquin Dark";
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 27px; /* 150% */
+   letter-spacing: -0.18px; 
+}
+.input{
+    width: 337px;
+    height: 50px;
+    position: relative;
+}
+.input > input{
+    width: 337px;
+    height: 50px;
+    font-size: 1rem;
+    margin-top: 7%;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: #FDFEFF;
+    align-items: center;
+    padding: 5px 5px;
+}
+.input >.btn6 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2px 2px;
+        color: #EFFCF1;
+        background: #EFAB29;
+        font-size: .8rem;
+        width: 20%;
+        height: 10%;
+        border: none;
+        border-radius: 2px;
+        cursor: pointer;
+} 
+.vector{
+   position: absolute;
+   top: 1.88rem;
+   right: .6rem;
+}
+footer > hr{
+    width: 1159px;
+    height: 0px;
+    flex-shrink: 0;
+    margin-top: 6%;
+    stroke-width: 1px;
+    stroke: #FDFEFF;
+    margin-left: 3%;
+}
+footer > .terms{
+    color: white;
+    position: absolute;
+    left: 60rem;
+    bottom: 1rem;
+
+}
+footer > img{
+    width: 70px;
+    height: 20px;
+    position: absolute;
+    left: 74rem;
+    bottom: 1.25rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
